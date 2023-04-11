@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <script src="display.js" type="text/javascript"></script>
+    <script src="Calculadora.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript" defer></script>
+
+    <title>Calculadora</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="calculadora">
+        <div class="display">
+          <div id="vlaor-anterior"></div>
+          <div id="vlaor-actual"></div>
+        </div>
+
+          <button onclick="display.borrarMitad()">CE</button>
+          <button onclick="display.borrarTodo()">C</button>
+          <button onclick="display.borrar()"><span class="material-symbols-outlined"> backspace </span></button>
+          <button class="operador" value="dividir">/</button>
+          <button class="numeros">7</button>
+          <button class="numeros">8</button>
+          <button class="numeros">9</button>
+          <button class="operador" value="multiplicacion"><span class="material-symbols-outlined"> close </span></button>
+          <button class="numeros">4</button>
+          <button class="numeros">5</button>
+          <button class="numeros">6</button>
+          <button class="operador" value="restar">-</button>
+          <button class="numeros">1</button>
+          <button class="numeros">2</button>
+          <button class="numeros">3</button>
+          <button class="operador" value="suma"><span class="material-symbols-outlined"> add </span></button>
+          <button class="operador" value="porcentaje"><span class="material-symbols-outlined"> percent </span></button>
+          <button class="numeros">0</button>
+          <button class="numeros">,</button>
+          <button class="operador" value="igual">=</button>
+      </div>
+    </div>
+  </body>
+</html>
